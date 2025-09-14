@@ -9,7 +9,7 @@ on:
 # jobs to be executed      
 jobs:
     # single job named 'greeting'
-  greeting:
+  greet:
     # run of the job on the latest Ubuntu runner
     runs-on: ubuntu-latest
     steps:
