@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://jamercorelogic.github.io/ReactAppCI-CD/",
+  "homepage": "/ReactAppCI-CD",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
