@@ -3,7 +3,7 @@ on:
   push:
     branches:
       - main
-     # to ignore some files 
+     # to ignore some files wich you do not want to trigger the workflow
     paths-ignore: 
       - 'README.md'
       - '.github/workflows/*.yml'    
