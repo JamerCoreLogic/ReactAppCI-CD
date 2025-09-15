@@ -10,7 +10,7 @@ function App() {
     <h2>thios is feature 3</h2>
     <h3>this is feature 4</h3> 
     <h3>this is feature 5</h3> 
-    <h3>this is feature 6</h3> 
+    <h3>this is feature Divyansh</h3> 
     </>
   )
 }
