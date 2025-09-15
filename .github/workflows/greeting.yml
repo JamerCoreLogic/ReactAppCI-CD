@@ -5,7 +5,7 @@ on:
     # trigger on push to main branch
   push:
     branches:
-      - main
+      - master
 # jobs to be executed      
 jobs:
     # single job named 'greeting'
