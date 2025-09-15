@@ -3,6 +3,10 @@ on:
   push:
     branches:
       - main
+     # to ignore some files 
+    paths-ignore: 
+      - 'README.md'
+      - '.github/workflows/*.yml'    
   workflow_dispatch:
                
 jobs:
@@ -16,7 +20,8 @@ jobs:
         uses: actions/setup-node@v4
         with:   
           node-version: '20'
-
+     
+          # to cache node modules
       - name: Cache nodemodules
         uses: actions/cache@v4
         with:
