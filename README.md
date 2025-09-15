@@ -16,5 +16,5 @@ git init
 git commit 
 git branch -M main 
 git remote add origin https://github.com/JamerCoreLogic/ReactAppCI-CD.git
-git pull 
+git pull origin main --allow-unrelated-histories
 git push -u orign Main 

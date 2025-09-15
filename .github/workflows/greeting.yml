@@ -1,4 +1,4 @@
-# name of the workflow
+  # name of the workflow
 name: Greetings 
 # event that triggers the workflow
 on:
