@@ -67,8 +67,8 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     permissions:
-      contents: read
-      issues: write
+      id-token: write    # ✅ required for OIDC token minting
+      contents: read     # ✅ required for actions/checkout
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
